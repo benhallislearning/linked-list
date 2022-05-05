@@ -21,7 +21,7 @@ class LinkedList:
         current.next = Node(value)
 
     def add_head_node(self, value):
-        """Adds a new node to start of list and returns new head, does not modify inplace (value)"""
+        """Adds a new node to start of list"""
         current = self.head
         new_node = Node(value)
         new_node.next = current
